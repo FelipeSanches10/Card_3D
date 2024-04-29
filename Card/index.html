@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realidade Virtual</title>
+    <link rel="shortcut icon" href="./rv-desenho.avif" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="itens" id="item-1">
+            <img src="./image4.jpg" alt="">
+            <h1>Realidade Virtual</h1>
+            <p>A realidade virtual é um ambiente simulado produzido por computador que o usuário pode interagir com este usando o óculos de realidade virtual.</p>
+            <a href="https://vrglass.com/home/">
+            <button>Saiba mais</button>
+        </a>
+        </div>
+</body>
+
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".itens"), {
+		max: 35,
+		speed: 400,
+        easing:                 "cubic-bezier(.03,.98,.52,.99)",
+        "mouse-event-element":  null,
+        startX:                 0,      
+        startY:                 0,   
+        transition:             true,
+        reset:                  true,
+         
+	});
+</script>
+</html>
+
+
+

@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 10%;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 50px;
+    transform-style: preserve-3d;
+    
+}
+
+h1 {
+    color: rgb(46, 46, 46);
+    font-family: "Poppins", sans-serif;
+}
+
+h1:hover {
+    color: black;
+}
+
+p {
+    color: rgb(46, 46, 46);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+}
+
+
+.itens {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    transition: all 0.8s;
+    border-radius: 15px;
+    height: 375px;
+    width: 350px;
+    text-align: center;  
+    background-color: rgb(46, 46, 46);
+}
+
+.itens:hover {
+    background-color: aliceblue;
+}
+
+#item-1 img {
+    width: 350px;
+    height: 380px;
+    border-radius: 15px;
+    transition: all 0.9s;
+}
+
+#item-1:hover {
+    transform: scale(0,0,150px);
+    transition-duration: 0.70s;
+    height: 580px;
+    top: 0px;
+}
+
+
+img:hover {
+    height: 350px;
+    width: 400px;
+    transform: scale(1.04);
+    overflow: hidden;
+}
+
+button {
+    background-color: rgb(46, 46, 46);
+    border: none;
+    color: rgb(46, 46, 46);
+    transition: all 0.7s;
+}
+
+button:hover {
+    background-color: blueviolet;
+    height: 35px;
+    width: 130px;
+    border-radius: 6px;
+    cursor: pointer;
+    transform: scale(1.10);
+    font-weight: 700;
+    color: black;
+
+}
